@@ -1,0 +1,128 @@
+@font-face{
+	font-family: modern serif;
+	src: url("../fonts/Modern Serif.ttf");
+}
+
+/*body*/
+body {  
+    background: url(../img/bg/1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Wrapper*/
+
+#contBg {
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgba(210, 144, 98, .5);
+    border-radius: 10px;
+    border: 5px double #b82c2c;
+}
+
+.searchContent {
+    margin: 0 auto;
+    width: 34%;
+}
+
+#drinkBox {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    border: 5px double #b82c2c;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.wrapper h1 {
+    font-family: modern serif;
+    font-weight: 800;
+    color: #b82c2c;
+    display: block;
+}
+
+/*search bar and button*/
+#drinkSearch, #btnSearch {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Input Bar*/
+#drinkSearch {
+    padding: 4px 5px;
+    outline: none;
+    border: 1px red solid;
+    border-radius: 5px;
+}
+
+/*search button*/
+#btnSearch {
+    padding: 5px;
+    margin: 5px auto;
+    border: none;
+    background-color: #b82c2c;
+    color: #d5caa6;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+}
+
+.drinkItem {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f1f1;
+    margin: 8px 0px;
+    padding: 0px 0px;
+    border: rgba(217, 143, 28, 0.59) 3px ridge;
+}
+
+.drinkItem img{
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom: 1px gold ridge;
+}
+/*title element that namees the drink we created in Javascript*/
+.drinkTitle {
+    margin: 0;
+}
+
+.drinkTitle, .drinkCategory {
+    font-family: 'Libre Baskerville', serif;
+    color: #615E3F;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*intructions for the drink. this is the "p* element that was created in Javascript/
+*/
+.drinkInstructions {
+    padding: 0 10px;
+    font-size: 13px;
+    color: #8d5858;
+}
+
+/*recipe area*/
+.ingredients {
+    font-family: 'Libre Baskerville', serif;
+    color: #615E3F;
+}
+
+/*fail search*/
+.error {
+    width: 60%;
+    margin: 30px auto;
+    background-color: rgba(210, 144, 98, .5);
+    border-radius: 10px;
+    border: 5px double #b82c2c;
+    background-color: white;
+    text-align: center;
+    color: #b82c2c;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: modern serif;
+}
